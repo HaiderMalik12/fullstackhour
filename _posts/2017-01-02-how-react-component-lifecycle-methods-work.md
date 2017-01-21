@@ -189,7 +189,9 @@ the component needs to be notified of the new props.
 props are coming in and we can make choices based on data.
 
 <br/>
+
 #### Example
+
 
 ```javascript
 class SignInForm extends React.Component {
@@ -231,6 +233,7 @@ When user typed in the  `<input />`. we invoke a setState() method.
 This will trigger update phase for both SignInForm and Person Component.Person Component will receive newProps .
 
 <br/>
+
 ### shouldComponentUpdate
 
 *When it is Called ?*
@@ -248,6 +251,7 @@ despite receiving updated props or a new state.
 conditions are met.
 
 <br/>
+
 #### Example
 
 ```javascript
@@ -284,6 +288,7 @@ class CounterButton extends React.Component {
 If the only way your component ever changes is when the `props.color` or the `state.count` variable changes
 
 <br/>
+
 ### componentWillUpdate
 
 *When it is Called ?*
@@ -299,6 +304,8 @@ such as when this.state() is called.
 - The `componentWillUpdate()` is a chance for us to handle configuration changes and prepare for the next render.
 
 <br/>
+
+
 #### Example
 
 ```javascript
@@ -311,6 +318,8 @@ componentWillUpdate(nextProps, nextState) {
 ```
 
 <br/>
+
+
 ### componentDidUpdate
 
 *When it is Called ?*
@@ -322,7 +331,9 @@ componentWillUpdate(nextProps, nextState) {
 - The most common uses of componentDidUpdate() is managing 3rd party UI elements and interacting with the Native UI. When using 3rd Party libraries, like our Chart example, we need to update the UI library with new data.
 
 <br/>
+
 #### Example
+
 ```javascript
 
 componentDidUpdate(prevProps, prevState) {
@@ -336,6 +347,8 @@ componentDidUpdate(prevProps, prevState) {
 ```
 
 <br/>
+
+
 ### componentWillUnmount
 
 *When it is Called?*
