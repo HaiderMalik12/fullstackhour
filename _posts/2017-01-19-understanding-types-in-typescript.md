@@ -63,8 +63,10 @@ console.log(statuses[1]);
 `Output`
 
 ```bash
+
 SENT
 1
+
 ```
 
 It is just a simple array But you can insert only string data type value
@@ -88,6 +90,7 @@ console.log(Status.FAILED);
 ```
 
 `Output`
+
 ```bash
 1
 2
@@ -116,6 +119,7 @@ console.log(Status.SENT);
 ```
 
 `Output`
+
 ```bash
 100
 ```
@@ -182,6 +186,7 @@ firstName :'Haider',
 lastName : 'Malik'
 }
 ```
+
 ### types with function
 
 ```ts
@@ -190,6 +195,7 @@ function getName() : string {
 }
 
 ```
+
 - First keyword would be function
 - Second would be the name of your function
 - annotate with return type
@@ -222,6 +228,7 @@ function multiply(value:number, value2:number) :number {
 console.log(multiply(2,3));
 
 ```
+
 ### function types
 
 You can also set type of function.
