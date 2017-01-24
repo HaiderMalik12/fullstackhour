@@ -173,7 +173,7 @@ let service = Service.getInstance();
 // service.name = 'MyService'; won't work
 console.log(service.name);
 ```
-You are not allowed to change the `name` property becuase it is `readonly`
+You are not allowed to change the `name` property because it is `readonly`
 property.
 
  {% include disqus.html %}
