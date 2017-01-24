@@ -15,7 +15,7 @@ share: true
 ```ts
 class Employee {
 
-    //can access outisde the class
+    //can access outside the class
     public name : string;
     //access only those objects that inherit from Employee
     protected age: number;
