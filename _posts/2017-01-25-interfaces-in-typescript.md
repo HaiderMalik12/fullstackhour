@@ -42,8 +42,9 @@ interface Module {
 
 #### Methods in interface
 
- ```typescript
- 
+
+```typescript
+
  interface Module {
 
      name : string;
@@ -53,7 +54,6 @@ interface Module {
      exports : any [];
      isLoaded:(name : string) => boolean
  };
-
  const userModule : Module = {
       name :'Users',
       providers: ['Router','Services'],
@@ -64,9 +64,11 @@ interface Module {
           return name === 'Users' ? true : false;
       }
      };
-
      console.log(userModule);
- ```
+
+```
+
+
 We can also define methods in Interfaces.
 
 #### Interface with classes
