@@ -14,7 +14,7 @@ share: true
 
 Interfaces are code contracts with your code. Interfaces are used to declare the structure of variables or function.
 
-```ts
+```typescript
 interface Module {
 
      name : string;
@@ -42,7 +42,8 @@ interface Module {
 
 #### Methods in interface
 
- ```ts
+ ```typescript
+ 
  interface Module {
 
      name : string;
@@ -72,7 +73,7 @@ We can also define methods in Interfaces.
 
 We can also implements interface in classes.
 
-```ts
+```typescript
 class UserModule implements Module {
         name : string;
         providers :any[];
@@ -92,7 +93,7 @@ class UserModule implements Module {
 
 #### Interface Inheritance
 
-```ts
+```typescript
 interface BrowserModule extends Module {
     cache : any [];
     browserName : string;
