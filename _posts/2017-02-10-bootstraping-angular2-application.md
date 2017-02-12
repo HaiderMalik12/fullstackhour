@@ -16,6 +16,7 @@ share: true
 ### File Structure
 
 *app/app.component.ts*
+
 ```typescript
 import { Component } from '@angular/core';
 
@@ -56,6 +57,7 @@ export class AppModule {
 
 
 *app/main.ts*
+
 ```typescript
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic'; import { AppModule } from './app.module';
 platformBrowserDynamic().bootstrapModule(AppModule);
@@ -72,6 +74,7 @@ This bootstrap process also starts with dependency injection in Angular2.
 
 
 *app/app.module.ts*
+
 ```typescript
 import { BrowserModule }  from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
